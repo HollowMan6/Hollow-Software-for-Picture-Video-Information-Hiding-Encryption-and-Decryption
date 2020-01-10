@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;· 本软件基于蔡銘峯(parkmftsai)等人的研究成果，使用整数小波域变换实现图片信息隐藏功能, 能够抵御各种图片压缩以及剪切等降低图片质量的攻击手段，具有高健壮性，并且加密得到的图片与原图片画质几乎一致，适用于版权保护或其它特殊领域需要。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;· 在加密时，你需要设定一个加密密码，你还可以选择是否保存图片还原辅助信息，如果选择保存，该信息将会以npy文件扩展名保存，文件名为图片的文件名（包括扩展名）。如果选择不保存，则在还原图片时，缺少这一信息会导致图片部分细节丢失。如果需要批量加密图片，请在“要附加隐藏信息的图片（文件夹）”处选择要处理图片所存放的文件夹。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;·在解密时，你需要选择被附加隐藏信息的图片，如果存在图片还原辅助信息，你可以选择图片还原辅助信息文件或者文件夹，如果你选择的是存放图片还原辅助信息文件文件夹，程序将会自动搜寻该文件夹下和你选择的被附加隐藏信息图片同名的文件，如果不存在则不能加载图片还原辅助信息。同时，你需要正确地输入被隐藏图片的宽与高，并且输入正确的解密密码。如果你输入的信息与加密时的不符，将会导致解密的失败，即解密出来的图片为一堆杂乱的像素点。如果需要批量解密图片，请在“要附加隐藏信息的图片（文件夹）”处选择要处理图片所存放的文件夹。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;·对于视频，你可以选择软件提供的视频处理工具，将视频按帧拆解成图片，然后再对图片进行批量信息隐藏加密。完成后，你可以输入原视频的视频帧率，重新合成原视频。对于视频的隐藏还原，同理，将视频按帧拆解成图片，然后对图片进行批量信息隐藏解密。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>277</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>105</x>
+     <y>266</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
