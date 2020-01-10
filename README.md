@@ -12,6 +12,9 @@
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
 [![Repo-Size](https://img.shields.io/github/repo-size/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption.svg)](../../archive/master.zip)
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption/context:python)
+
 (All the documents and software are in Chinese)
 
 ***此软件申请了软件著作权。***
@@ -22,7 +25,7 @@
 
 本软件部分参考了[蔡銘峯](https://github.com/parkmftsai)的[Digital Watermarking](https://github.com/parkmftsai/digital_watermarking)项目，并在其基础上做出了大量改进。本软件适用于视频和图片的信息隐藏加解密，具体设计说明原理和使用方法请参考[此说明文档](计算机软件著作权登记申请/设计说明书.pdf)
 
-In the software part, I refer to [digital watermarking](https://github.com/parkmftsai/digital_watermarking) project of [Cai Mingyi](https://github.com/parkmftsai), and make a lot of improvements on the basis of it. This software is applicable to the encryption and decryption of video and picture information hiding. Please refer to [this instruction document（in Chinese）](计算机软件著作权登记申请/设计说明书.pdf) for the specific design description and user instruction.
+In the software part, I refer to [digital watermarking](https://github.com/parkmftsai/digital_watermarking) project of [Cai MingFeng](https://github.com/parkmftsai), and make a lot of improvements on the basis of it. This software is applicable to the encryption and decryption of video and picture information hiding. Please refer to [this instruction document（in Chinese）](计算机软件著作权登记申请/设计说明书.pdf) for the specific design description and user instruction.
 
 [这里](qt-design)为QT Designer的UI设计和资源文件，要将UI文件转化为Python脚本，请使用以下命令：
 
@@ -90,4 +93,24 @@ This is the decrypted hidden information:
 
 [计算机软件著作权登记申请](计算机软件著作权登记申请)文件夹下存放了此软件的有关申请文档，仅供参考。具体申请步骤请查看[官网](http://www.ccopyright.com/index.php?optionid=1033)。
 
+我的申请经历：
+
+我使用邮寄的方式于2019年10月28日按照要求将黑白单面打印未装订的申请材料按顺序摆放通过EMS寄出，申请材料有：[计算机软件著作权登记申请表](计算机软件著作权登记申请/计算机软件著作权登记申请表.pdf)，[源代码](计算机软件著作权登记申请/源代码.pdf)，[设计说明书](计算机软件著作权登记申请/设计说明书.pdf)。
+
+2019年10月29日北京的中国版权保护中心签收了快件，随后就开始了漫长的等待。
+
+2019年11月20日，因为申请文档存在缺陷，收到补正通知书邮件，隔日我将[补正材料](计算机软件著作权登记申请/补正材料.pdf)寄出。
+
+2019年12月11日，收到中国版权保护中心计算机软件著作权登记申请受理通知书邮件。
+
 The folder [计算机软件著作权登记申请](计算机软件著作权登记申请) stores the relevant application documents of this software for reference only. Please refer to [Official Website](http://www.ccopyright.com/index.php?optionid=1033) for specific application steps.
+
+My application experience:
+
+On October 28, 2019, I mailed out the application materials that were printed in black and white, single-sided and unbound in order and sent by EMS. The application materials include: [application form for computer software copyright registration](计算机软件著作权登记申请/计算机软件著作权登记申请表.pdf), [source code](计算机软件著作权登记申请/源代码.pdf), [design Design Specification](计算机软件著作权登记申请/设计说明书.pdf).
+
+On October 29, 2019, the China Copyright Protection Center in Beijing signed for the express, and then I began a long wait.
+
+On November 20, 2019, due to the defects in the application documents, I received the correction notice email, and I sent [correction materials](计算机软件著作权登记申请/补正材料.pdf) the next day.
+
+On December 11, 2019, an email was received for the computer software copyright registration application acceptance notice of China Copyright Protection Center.
