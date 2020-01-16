@@ -114,3 +114,10 @@ On October 29, 2019, the China Copyright Protection Center in Beijing signed for
 On November 20, 2019, due to the defects in the application documents, I received the correction notice email, and I sent [correction materials](计算机软件著作权登记申请/补正材料.pdf) the next day.
 
 On December 11, 2019, an email was received for the computer software copyright registration application acceptance notice of China Copyright Protection Center.
+
+# 申请处理时间线(Timeline of application)
+
+* 微信公众号查询详细版(WeChat public account query)：
+![](Record-Wechat.jpg)
+* 网站查询版(Website query)：
+![](Record-Website.png)
