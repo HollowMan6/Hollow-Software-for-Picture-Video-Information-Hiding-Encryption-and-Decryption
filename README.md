@@ -89,6 +89,10 @@ This is the decrypted hidden information:
 ![](test/de-encrypted-pic/deec6.png)
 ![](test/de-encrypted-pic/deecVincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.png)
 
+# 软件著作权证书(Software Copyright Certificate in China)
+
+![](计算机软件著作权登记证书.jpg)
+
 # 软件著作权申请(Applying for Software Copyright in China)
 
 [计算机软件著作权登记申请](计算机软件著作权登记申请)文件夹下存放了此软件的有关申请文档，仅供参考。具体申请步骤请查看[官网](http://www.ccopyright.com/index.php?optionid=1033)。
@@ -103,6 +107,8 @@ This is the decrypted hidden information:
 
 2019年12月11日，收到中国版权保护中心计算机软件著作权登记申请受理通知书邮件。
 
+2020年1月26日，被送信员电话通知，收到邮寄过来的证书。
+
 The folder [计算机软件著作权登记申请](计算机软件著作权登记申请) stores the relevant application documents of this software for reference only. Please refer to [Official Website](http://www.ccopyright.com/index.php?optionid=1033) for specific application steps.
 
 My application experience:
@@ -114,6 +120,8 @@ On October 29, 2019, the China Copyright Protection Center in Beijing signed for
 On November 20, 2019, due to the defects in the application documents, I received the correction notice email, and I sent [correction materials](计算机软件著作权登记申请/补正材料.pdf) the next day.
 
 On December 11, 2019, an email was received for the computer software copyright registration application acceptance notice of China Copyright Protection Center.
+
+On January 26, 2020, I received the software copyright certificate by phone calling.
 
 # 申请处理时间线(Timeline of application)
 
