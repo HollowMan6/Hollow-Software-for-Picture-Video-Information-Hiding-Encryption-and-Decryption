@@ -27,6 +27,10 @@
 
 In the software part, I refer to [digital watermarking](https://github.com/parkmftsai/digital_watermarking) project of [Cai MingFeng](https://github.com/parkmftsai), and make a lot of improvements on the basis of it. This software is applicable to the encryption and decryption of video and picture information hiding. Please refer to [this instruction document（in Chinese）](计算机软件著作权登记申请/设计说明书.pdf) for the specific design description and user instruction.
 
+*新*：新增Github Actions流水线测试
+
+*New*：Newly add Github Actions
+
 [这里](qt-design)为QT Designer的UI设计和资源文件，要将UI文件转化为Python脚本，请使用以下命令：
 
 [Here](qt-design) is the UI design and resource file of QT designer. To convert the UI file to Python script, use the following command:
