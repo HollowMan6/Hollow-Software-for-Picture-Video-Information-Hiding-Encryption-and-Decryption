@@ -2,6 +2,7 @@
 
 [![last-commit](https://img.shields.io/github/last-commit/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption)](../../graphs/commit-activity)
 [![release-date](https://img.shields.io/github/release-date/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption)](../../releases)
+![Python package](https://github.com/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption/workflows/Python%20package/badge.svg)
 
 [![Followers](https://img.shields.io/github/followers/HollowMan6?style=social)](https://github.com/HollowMan6?tab=followers)
 [![watchers](https://img.shields.io/github/watchers/HollowMan6/Hollow-Software-for-Picture-Video-Information-Hiding-Encryption-and-Decryption?style=social)](../../watchers)
@@ -26,10 +27,6 @@
 本软件部分参考了[蔡銘峯](https://github.com/parkmftsai)的[Digital Watermarking](https://github.com/parkmftsai/digital_watermarking)项目，并在其基础上做出了大量改进。本软件适用于视频和图片的信息隐藏加解密，具体设计说明原理和使用方法请参考[此说明文档](计算机软件著作权登记申请/设计说明书.pdf)
 
 In the software part, I refer to [digital watermarking](https://github.com/parkmftsai/digital_watermarking) project of [Cai MingFeng](https://github.com/parkmftsai), and make a lot of improvements on the basis of it. This software is applicable to the encryption and decryption of video and picture information hiding. Please refer to [this instruction document（in Chinese）](计算机软件著作权登记申请/设计说明书.pdf) for the specific design description and user instruction.
-
-*新*：新增Github Actions流水线测试
-
-*New*：Newly add Github Actions
 
 [这里](qt-design)为QT Designer的UI设计和资源文件，要将UI文件转化为Python脚本，请使用以下命令：
 
