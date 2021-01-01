@@ -12,7 +12,6 @@ import cv2
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QIcon
 from PyQt5 import QtCore, QtGui, QtWidgets
-import res_rc
 
 # 对图像的红绿蓝三通道合并, 处理变换中的异常像素值，并且输出文件
 
@@ -84,7 +83,6 @@ def extract_watermark(TEMP2, width, height, mwidth, mheight, complex, passwd):
     outputwm = np.zeros((mwidth*mheight), int)
     order = np.zeros((mwidth*mheight), int)
     tmp = np.zeros((mwidth*mheight), int)
-    k = 5
     position_pixel = 0
     for i in range(width // 2, width):
         for j in range(height // 2, height):
@@ -127,10 +125,8 @@ def hiding_data(TEMP2, filename, flag, writedata, passwd):
         watermark = watermark.convert("RGB")
     mk = watermark.load()
     wm_width, wm_height = watermark.size
-    outputwm = np.zeros((wm_width*wm_height), int)
     wm_pixel = np.zeros((wm_width*wm_height), int)
     complex = np.zeros((wm_width*wm_height), float)
-    k = 5
     position_pixel = 0
     for i in range(wm_width):
         for j in range(wm_height):
@@ -361,6 +357,7 @@ class ThrNum(object):
             temp = int(self.lineEdit.text())
             if temp > 0:
                 threadNum = temp
+                global threadmax
                 threadmax = threading.BoundedSemaphore(threadNum)
                 Dialog.close()
             else:
@@ -1222,7 +1219,6 @@ class Ui_MainWindow(QtCore.QObject):
             file_path = os.path.abspath(
                 savepath) + '/' + str(int(time.time())) + ".avi"
             fourcc = cv2.VideoWriter_fourcc('X', 'V', 'I', 'D')
-            size = (0, 0)
             item = os.path.abspath(path) + '/ec1.png'
             img = cv2.imdecode(np.fromfile(
                 item, dtype=np.uint8), cv2.IMREAD_COLOR)
